@@ -579,7 +579,7 @@ def parse_args():
     p.add_argument("--base-url", default=BASE_URL, help="Scavenger API base URL")
     p.add_argument("--daemon-host", default=DAEMON_HOST, help="Local ashmaize daemon host")
     p.add_argument("--daemon-port", default=DAEMON_PORT, type=int, help="Local ashmaize daemon port")
-    p.add_argument("--workers", default=64, type=int, help="Number of worker threads (default: 8)")
+    p.add_argument("--workers", default=48, type=int, help="Number of worker threads (default: 8)")
     p.add_argument("--submit", action="store_true", default=True, help="Submit found solutions to server (default: True)")
     # Default to the workspace CSV if present (was a Windows path). Use a relative path so the
     # script works inside this container/workspace.
@@ -684,7 +684,7 @@ def main():
     
     # ✅ List address bạn cung cấp
     address_list = [
-"addr1q87jeplfpctxwvgdps35z2lya59wwd3shspju8zxeg6zdxkceffgt7xc99pyy3rhc4qzsawth749zkj48weup52m8m6qqv5y7u",
+
     "addr1q9fkdnrldlsug8rg2m7ttj6xyg80qhln36uffnsgvnfd55udx0gae2m5q9r0fm37svhkj4dl0mcfh7j7s7ucrkrjn8cqq9jwl9",
     "addr1q8cecrzfwenw6du5sflmq5svju9vv2m9nhlayq5rk33wqrhgg7emy76r8nrqhg76vfwlg74k5wsrfekal3ltqlyt8qxqqca792",
     "addr1q9zny6jp7q5qpvsau4kxm5zej2jkqyl636z5r0vr8zv5jgxfsmrypree946u3c4n4mdk9yxna42d3q8kphp2feze7zjst9cg39",
